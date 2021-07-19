@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<project name="Count characters, words and paragraphs in Textarea fields" default="welcome" description="This is a phing xml by Yiannis Christodoulou">
+
+    <!-- IMPORT THE COMMON BUILD FILE -->
+	<import file="../helpers/common-build-wp.xml" />
+
+    <!-- IMPORT THE PLUGIN'S BUILD FILE -->
+    <property file="build.properties" override="true" />
+
+    <!-- GET CURRENT VERSION BY THE CHANGELOG -->
+    <taskdef name="getcurrentversion" classname="../helpers.phing.tasks.GetCurrentVersionByChangelogWP" />
+    <getcurrentversion pluginname="${pluginName}" propertyname="project.current.version" />
+
+    <!-- GET CURRENT VERSION DATE BY THE CHANGELOG -->
+    <taskdef name="getcurrentdate" classname="../helpers.phing.tasks.GetCurrentDateByChangelogWP" />
+    <getcurrentdate pluginname="${pluginName}" propertyname="project.current.date" />
+
+    <!-- GET BETA VERSION BY THE CHANGELOG -->
+    <taskdef name="getbetaversion" classname="../helpers.phing.tasks.GetBetaVersionByChangelogWP" />
+    <getbetaversion pluginname="${pluginName}" propertyname="project.beta.version" />
+
+    <!-- GET BETA DATE BY THE CHANGELOG -->
+    <taskdef name="getbetadate" classname="../helpers.phing.tasks.GetBetaDateByChangelogWP" />
+    <getbetadate pluginname="${pluginName}" propertyname="project.beta.date" />
+    
+</project>

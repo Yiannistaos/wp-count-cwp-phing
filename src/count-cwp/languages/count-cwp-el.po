@@ -1,0 +1,165 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2021-07-19 16:27+0300\n"
+"PO-Revision-Date: 2021-07-19 16:33+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_html;esc_html__;esc_att;esc_attr__;"
+"esc_attr_e;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/class-admin.php:93
+msgid "Words"
+msgstr "Λέξεις"
+
+#: admin/class-admin.php:94
+msgid "Characters"
+msgstr "Χαρακτήρες"
+
+#: admin/class-admin.php:95
+msgid "Paragraphs"
+msgstr "Παράγραφοι"
+
+#: admin/settings-view.php:21
+msgid "About Count CWP"
+msgstr "Σχετικά με το Count CWP"
+
+#: admin/settings-view.php:32
+msgid "Need support?"
+msgstr "Xρειάζεστε βοήθεια;"
+
+#: admin/settings-view.php:35
+#, php-format
+msgid ""
+"<p>If you are having problems with this plugin, please <a href=\"%1$s"
+"\">contact us</a> and we will reply as soon as possible.</p>"
+msgstr ""
+"<p>Αν αντιμετωπίσετε οποιοδήποτε θέμα σχετικά με το plugin, παρακαλώ <a "
+"href=“%1$s”>επκοινωνήστε μαζί μας</a> και θα σας απαντήσουμε το συντομότερο "
+"δυνατό.</p>"
+
+#: admin/settings-view.php:43
+msgid "Developed by"
+msgstr "Κατασκευάστηκε από"
+
+#: admin/settings-view.php:52
+msgid "How it works?"
+msgstr "Πως δουλεύει;"
+
+#: admin/settings-view.php:54
+msgid ""
+"<p>You have to navigate to the <a href=\"post-new.php\"><strong>Posts/Page "
+"page</strong></a> and then you will see a section under the editor with "
+"three strings `Characters`, `Words` and `Paragraphs`. If you start typing on "
+"the textarea field (editor) you will see that the counts will be increasing "
+"while typing.</p>"
+msgstr ""
+"<p>Θα πρέπει να μεταβείτε στα <a href=“post-new.php”><strong>Posts/Page</"
+"strong></a> και κάτω από τον editor και κάθε textarea που μπορεί να έχετε "
+"στα custom fields σας, θα δείτε ότι υπάρχουν τρεις τύποι μέτρησης, "
+"`Χαρακτήρες`, `Λέξεις` and `Παράγραφοι`. Αν ξεκινήσετε να πληκτρολογήτε, θα "
+"δείτε ότι ο αριθμός του κάθε τύπου μέτρησης αρχίζει και αυξάνεται.</p>"
+
+#: admin/settings-view.php:57 includes/class-w357-settings.php:128
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+#: admin/settings-view.php:62
+msgid "Save Settings"
+msgstr "Αποθήκευση Ρυθμίσεων"
+
+#: includes/class-w357-settings.php:68
+msgid "Count CWP settings"
+msgstr "Count CWP Ρυθμίσεις"
+
+#: includes/class-w357-settings.php:166
+msgid "Show Characters"
+msgstr "Εμφάνιση χαρακτήρων"
+
+#: includes/class-w357-settings.php:174 includes/class-w357-settings.php:191
+#: includes/class-w357-settings.php:208 includes/class-w357-settings.php:225
+msgid "Yes"
+msgstr "Ναι"
+
+#: includes/class-w357-settings.php:175 includes/class-w357-settings.php:192
+#: includes/class-w357-settings.php:209 includes/class-w357-settings.php:226
+msgid "No"
+msgstr "Όχι"
+
+#: includes/class-w357-settings.php:177
+msgid ""
+"Choose if you want to display the count of characters below each HTML "
+"textarea tag."
+msgstr ""
+"Επιλέξτε αν θα εμφανίζεται ο μετρητής χαρακτήρων κάτω από τον editor και "
+"κάθε textarea field."
+
+#: includes/class-w357-settings.php:183
+msgid "Show Words"
+msgstr "Εμφάνιση Λέξεων"
+
+#: includes/class-w357-settings.php:194
+msgid ""
+"Choose if you want to display the count of words below each HTML textarea "
+"tag."
+msgstr ""
+"Επιλέξτε αν θα εμφανίζεται ο μετρητής λέξεων κάτω από τον editor και κάθε "
+"textarea field."
+
+#: includes/class-w357-settings.php:200
+msgid "Show Paragraphs"
+msgstr "Εμφάνιση Παραγράφων"
+
+#: includes/class-w357-settings.php:211
+msgid ""
+"Choose if you want to display the count of paragraphs below each HTML "
+"textarea tag."
+msgstr ""
+"Επιλέξτε αν θα εμφανίζεται ο μετρητής παραγράφων κάτω από τον editor και "
+"κάθε textarea field."
+
+#: includes/class-w357-settings.php:217
+msgid "Show Copyright link"
+msgstr "Εμφάνιση Copyright συνδέσμου"
+
+#: includes/class-w357-settings.php:228
+msgid ""
+"Help the developer of this free WordPress plugin and display the copyright "
+"link below the counter."
+msgstr ""
+"Στο κάτω μέρος του μετρητή εμφανίζεται ένα link προς τον developer του "
+"plugin. Μπορείτε αν θέλετε να το αφήσετε σαν στήριξη που σας παρέχει το "
+"plugin δωρεάν."
+
+#: includes/plugin-update-checker/Puc/v4p6/Plugin/Ui.php:54
+msgid "View details"
+msgstr ""
+
+#: includes/plugin-update-checker/Puc/v4p6/Plugin/Ui.php:77
+#, php-format
+msgid "More information about %s"
+msgstr ""
+
+#: includes/plugin-update-checker/Puc/v4p6/Plugin/Ui.php:128
+msgid "Check for updates"
+msgstr ""
+
+#: includes/plugin-update-checker/Puc/v4p6/Plugin/Ui.php:223
+#, php-format
+msgid "Unknown update checker status \"%s\""
+msgstr ""
+
+#: includes/plugin-update-checker/Puc/v4p6/Vcs/PluginUpdateChecker.php:98
+msgid "There is no changelog available."
+msgstr ""
+
+#~ msgid "Need support test?"
+#~ msgstr "Xρειάζεστε βοήθεια test;"

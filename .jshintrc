@@ -1,0 +1,12 @@
+{
+    "maxerr"    :   1000,
+    "camelcase" :   true,
+    "immed"     :   true,
+    "latedef"   :   true,
+    "newcap"    :   true,
+    "quotmark"  :   "single",
+    "trailing"  :   true,
+    "jquery"    :   true,
+    "white"     :   true,
+    "globals"   :   {}
+}

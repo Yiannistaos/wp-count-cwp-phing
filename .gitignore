@@ -1,0 +1,6 @@
+/build
+/releases
+/cdn
+/temp
+/tests
+.DS_Store

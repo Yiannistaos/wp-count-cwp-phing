@@ -1,0 +1,7 @@
+The plugin is simple to install:
+
+1. Download the file `count-cwp.zip`.
+2. Unzip it.
+3. Upload `count-cwp` directory to your `/wp-content/plugins` directory.
+4. Go to the plugin management page and enable the plugin.
+5. Configure the options from the `Settings > Login as User` page
