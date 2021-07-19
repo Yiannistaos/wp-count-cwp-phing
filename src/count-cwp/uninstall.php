@@ -29,4 +29,4 @@ if (
 }
 
 // Delete the options from database
-// delete_option('count_cwp_options');
+delete_option('count_cwp_options');
