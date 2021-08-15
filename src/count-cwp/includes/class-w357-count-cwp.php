@@ -23,7 +23,7 @@ class w357CountCWP___PROCLASS
 	}
 
 	function w357_tinymce_plugin($init) {
-		$init['keyup_event'] = plugins_url( 'count-cwp' ) . '/admin/js/tinymce-keyup.js';
+		$init['keyup_event'] = plugins_url( 'count-cwp' ) . '/admin/js/tinymce-keyup.min.js';
 		return $init;
 	}
 }

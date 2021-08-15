@@ -51,7 +51,7 @@
             <h2>
                 <?php echo esc_html__( 'How it works?', 'count-cwp' ); ?>
             </h2>
-            <?php echo wp_kses( __( '<p>You have to navigate to the <a href="post-new.php"><strong>Posts/Page page</strong></a> and then you will see a section under the editor with three strings `Characters`, `Words` and `Paragraphs`. If you start typing on the textarea field (editor) you will see that the counts will be increasing while typing.</p>', 'count-cwp' ), array( 'strong' => array(), 'br' => array(), 'p' => array(), 'a' => array('href'=>array()) ) ); ?>
+            <?php echo wp_kses( __( '<p>You have to navigate to the <strong>Posts/Page page</strong> and then you will see a section under the editor with three strings `Characters`, `Words` and `Paragraphs`. If you start typing on the textarea field (editor) you will see that the counts will be increasing while typing.</p>', 'count-cwp' ), array( 'strong' => array(), 'br' => array(), 'p' => array(), 'a' => array('href'=>array()) ) ); ?>
 
             <h2 style="margin-top: 40px;">
                 <?php echo esc_html__( 'Settings', 'count-cwp' ); ?>
