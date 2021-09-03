@@ -1,23 +1,8 @@
-[Login as a User WordPress plugin](https://www.web357.com/product/count-cwp-wordpress-plugin) allows admins to have easy access to the frontend as a specific user and thus solve problems or provide better and faster customer support. With one click, the admin logs in as the external user or customer and handles any situation without wasting any time at all. If you want a WordPress plugin to switch accounts in an instant, Login as User is for you.
+[Count Characters, Words and Paragraphs in editor and textarea fields WordPress plugin](https://www.web357.com/product/count-words-characters-paragraphs-wordpress-plugin) This WordPress plugin displays the count of Characters, Words and Paragraphs while writing in posts/pages editor, and in other custom textarea fields, as an Editor, Author or Admin.
 
 == Video Description ==
 
-[youtube https://www.youtube.com/watch?v=OrptAiAQo04]
-
-== Demo ==
-
-[Try Demo](https://demo.web357.com/wordpress/count-cwp/wp-admin/)
-`
-    Username: demo
-    Password: demo
-`
+[youtube https://youtu.be/13rTj-B3mhY]
 
 == Basic Features ==
-- In the Admin area, you select Users in the left-hand side menu and click All Users in the sub-menu. Now, all users of your website appear on the screen along with the Login as… button besides each name. You can click the button of the user you want to switch account.
-- Are you in a user’s profile and want to login as this user? Just click the button Login as:… at the top left-hand side and you will be able to check data and help this specific user with any problem.
-- You can choose the position of the "Login as user" toolbar. There are two available positions, the top and the bottom.
-- Compatible with the "User Insights" WordPress plugin. You just have to add a custom field with the name "loginasuser".
-
-== PRO Features ==
-- Are you using the WooCommerce plugin? In the WooCommerce orders page, the Login as user button appears besides each customer to help you provide better customer support.
-- Is one of your customers having trouble with their order? Do you want to check the details of a customer’s order? You can easily check the customer’s problem from his/her perspective by switching with the Login as User button in the WooCommerce order details page.
+- In Settings > Count CWP, you can show or hide the count of characters, words or paragraphs.

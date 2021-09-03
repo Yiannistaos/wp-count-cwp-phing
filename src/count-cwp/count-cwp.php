@@ -13,8 +13,8 @@
  ========================================================= */
  
 /**
- * Plugin Name:       Count Characters, Words and Paragraphs while editing[SHOW_PRO_ONLY_IF_IS_PRO]
- * Plugin URI:        https://www.web357.com/product/count-cwp-wordpress-plugin
+ * Plugin Name:       Count CWP[SHOW_PRO_ONLY_IF_IS_PRO]
+ * Plugin URI:        https://www.web357.com/product/count-words-characters-paragraphs-wordpress-plugin
  * Description:       [WP_PLUGIN_SHORT_DESCRIPTION]
  * Version:           [WP_PLUGIN_VERSION]
  * Author:            Web357

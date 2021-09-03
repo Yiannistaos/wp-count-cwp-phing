@@ -102,7 +102,7 @@ jQueryWeb357(document).ready(function ($) {
 		
 		if (showCopyrightLink === 1)
 		{
-			el.innerHTML += "<div class=\"w357-copyright-link\"><a title=\"Count the Characters/Words/Paragraphs while editing - A plugin developed with 🤍 by Web357\" href=\"https://www.web357.com/product/count-cwp-wordpress-plugin?utm_source=PostPage&utm_medium=MoreLink&utm_content=countcwpwp&utm_campaign=more\" target=\"_blank\">Developed by Web357</a></div>";
+			el.innerHTML += "<div class=\"w357-copyright-link\"><a title=\"Count the Characters/Words/Paragraphs while editing - A plugin developed with 🤍 by Web357\" href=\"https://www.web357.com/product/count-words-characters-paragraphs-wordpress-plugin?utm_source=PostPage&utm_medium=MoreLink&utm_content=countcwpwp&utm_campaign=more\" target=\"_blank\">Developed by Web357</a></div>";
 		}
 
 		var div = document.getElementById(id);

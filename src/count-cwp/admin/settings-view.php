@@ -23,7 +23,7 @@
 
             <div style="margin-top: 20px; overflow:hidden;">
                 <!-- <img class="count-cwp-product-img" src="<?php echo esc_url( plugins_url( 'img', (__FILE__) ) ); ?>/count-cwp-wordpress-plugin-120x200.png" alt="Count CWP WordPress plugin by Web357" /> -->
-                <p>This plugin displays the count of Characters, Words and Paragraphs while writing in textarea fields. <a href="https://www.web357.com/product/count-cwp-wordpress-plugin?utm_source=SettingsPage&utm_medium=ReadMoreLink&utm_content=loginasuserwp&utm_campaign=read-more" target="_blank">Read more &raquo;</a></p>
+                <p>This WordPress plugin displays the count of Characters, Words and Paragraphs while writing in posts/pages editor, and in other custom textarea fields, as an Editor, Author or Admin. <a href="https://www.web357.com/product/count-words-characters-paragraphs-wordpress-plugin?utm_source=SettingsPage&utm_medium=ReadMoreLink&utm_content=loginasuserwp&utm_campaign=read-more" target="_blank">Read more &raquo;</a></p>
                 
             </div>
 

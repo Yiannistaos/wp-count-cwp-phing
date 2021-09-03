@@ -76,7 +76,7 @@ class CountCWP_fields___PROCLASS {
 			<?php endif; ?>
 
 			<div>
-				<input type="hidden" name="count_cwp_options[<?php echo $name; ?>]" id="count_cwp_options[<?php echo $name; ?>]" value="<?php echo esc_attr($value); ?>" />
+				<input type="hidden" name="count_cwp_options[<?php echo esc_attr($name); ?>]" id="count_cwp_options[<?php echo esc_attr($name); ?>]" value="<?php echo esc_attr($value); ?>" />
 				<button type="submit" class="upload_image_button button">Upload image</button>
 
 				<?php if (!empty($src)): ?>
@@ -140,11 +140,11 @@ class CountCWP_fields___PROCLASS {
 		$options = get_option('count_cwp_options');
 		$desc = (isset($args['desc'])) ? $args['desc'] : '';
 		?>
-		<select name="count_cwp_options[<?php echo $name; ?>]">
+		<select name="count_cwp_options[<?php echo esc_attr($name); ?>]">
 
 		<?php for ($i=0;$i<count($select_options);$i++): ?>
 
-			<option value="<?php echo esc_attr($select_options[$i]['value']); ?>" <?php echo (($select_options[$i]['value'] == (isset($options[$name]) ? $options[$name] : $default_value) ) ? 'selected' : ''); ?>><?php echo $select_options[$i]['label']; ?></option>
+			<option value="<?php echo esc_attr($select_options[$i]['value']); ?>" <?php echo (($select_options[$i]['value'] == (isset($options[$name]) ? $options[$name] : $default_value) ) ? 'selected' : ''); ?>><?php echo esc_attr($select_options[$i]['label']); ?></option>
 
 		<?php endfor; ?>
 		</select>
@@ -168,17 +168,17 @@ class CountCWP_fields___PROCLASS {
 
 			<input 
 				type='radio' 
-				id='<?php echo $radio_options[$i]['id']; ?>' 
-				name='count_cwp_options[<?php echo $name; ?>]' 
+				id='<?php echo esc_attr($radio_options[$i]['id']); ?>' 
+				name='count_cwp_options[<?php echo esc_attr($name); ?>]' 
 				value='<?php echo esc_attr($radio_options[$i]['value']); ?>'
 				<?php if ( $radio_options[$i]['value'] == (isset($options[$name]) ? $options[$name] : $default_value) ) echo 'checked="checked"'; ?>
 			>
-			<label for="<?php echo $radio_options[$i]['id']; ?>" style="margin-right: 10px;"><?php echo $radio_options[$i]['label']; ?></label>
+			<label for="<?php echo esc_attr($radio_options[$i]['id']); ?>" style="margin-right: 10px;"><?php echo esc_attr($radio_options[$i]['label']); ?></label>
 
 		<?php endfor; ?>
 
 		<?php if (!empty($field_description)): ?>
-			<div class="w357_settings_field_description"><?php echo $field_description; ?></div>
+			<div class="w357_settings_field_description"><?php echo esc_attr($field_description); ?></div>
 		<?php endif; ?>
 		<?php
 	}
@@ -196,12 +196,12 @@ class CountCWP_fields___PROCLASS {
 
 			<input 
 				type='checkbox' 
-				id='<?php echo $ckeckbox_options[$i]['id']; ?>' 
-				name='count_cwp_options[<?php echo $name; ?>][]' 
+				id='<?php echo esc_attr($ckeckbox_options[$i]['id']); ?>' 
+				name='count_cwp_options[<?php echo esc_attr($name); ?>][]' 
 				value='<?php echo esc_attr($ckeckbox_options[$i]['value']); ?>'
 				<?php if (in_array($ckeckbox_options[$i]['value'], (isset($options[$name]) ? $options[$name] : $default_value))) echo 'checked="checked"'; ?>
 			>
-			<label for="<?php echo $ckeckbox_options[$i]['id']; ?>" style="margin-right: 10px;"><?php echo $ckeckbox_options[$i]['label']; ?></label>
+			<label for="<?php echo esc_attr($ckeckbox_options[$i]['id']); ?>" style="margin-right: 10px;"><?php echo esc_attr($ckeckbox_options[$i]['label']); ?></label>
 
 		<?php endfor; ?>
 
