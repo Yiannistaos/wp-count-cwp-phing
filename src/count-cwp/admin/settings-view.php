@@ -14,7 +14,7 @@
 // Settings page
 ?>
 <div class="wrap">
-	<h1><?php echo $this->plugin_name; ?> v<?php echo $this->version; ?></h1>
+	<h1><?php echo esc_attr($this->plugin_name ); ?> v<?php echo esc_attr($this->version); ?></h1>
     <div class="count-cwp-settings">
         <div class="count-cwp-about">
             <h2>

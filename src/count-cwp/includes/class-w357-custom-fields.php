@@ -27,7 +27,7 @@ class CountCWP_fields___PROCLASS {
 		$desc = (isset($args['desc'])) ? $args['desc'] : '';
 		$prefix = (isset($args['prefix'])) ? $args['prefix'] : '';
 		?>
-		<fieldset><?php echo (!empty($prefix) ? $prefix : ''); ?>
+		<fieldset><?php echo esc_attr(!empty($prefix) ? ($prefix) : ''); ?>
 		<input 
 			type='text' 
 			name='count_cwp_options[<?php echo esc_attr($args['name']); ?>]' 
@@ -35,13 +35,13 @@ class CountCWP_fields___PROCLASS {
 			class='<?php echo esc_attr($class); ?>' 
 			placeholder='<?php echo esc_html__($placeholder); ?>'
 			value='<?php echo esc_attr(isset($options[$args['name']]) ? $options[$args['name']] : $default_value); ?>'
-			size='<?php echo absint($size); ?>'
+			size='<?php echo absint(esc_attr($size)); ?>'
 			maxlength='<?php echo absint($maxlength); ?>'
 			>
 		</fieldset>
 		<?php if (!empty($desc)): ?>
         <p class="description">
-			<?php echo wp_kses( __( $desc, 'count-cwp' ), array( 'strong' => array(), 'br' => array() ) ); ?>
+			<?php echo wp_kses( esc_attr($desc), array( 'strong' => array(), 'br' => array() ) ); ?>
 		</p>
 		<?php endif; ?>
 		<?php
@@ -150,7 +150,7 @@ class CountCWP_fields___PROCLASS {
 		</select>
 		<?php if (!empty($desc)): ?>
         <p class="description">
-			<?php echo wp_kses( __( $desc, 'count-cwp' ), array( 'strong' => array(), 'br' => array() ) ); ?>
+			<?php echo wp_kses( esc_attr($desc), array( 'strong' => array(), 'br' => array() ) ); ?>
 		</p>
 		<?php endif; ?>
 		<?php
@@ -206,7 +206,7 @@ class CountCWP_fields___PROCLASS {
 		<?php endfor; ?>
 
 		<?php if (!empty($field_description)): ?>
-			<div class="w357_settings_field_description"><?php echo $field_description; ?></div>
+			<div class="w357_settings_field_description"><?php echo esc_attr($field_description); ?></div>
 		<?php endif; ?>
 		<?php
 	}
