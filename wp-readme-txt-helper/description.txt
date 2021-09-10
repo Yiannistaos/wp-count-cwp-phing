@@ -1,4 +1,4 @@
-[Count Characters, Words and Paragraphs in editor and textarea fields WordPress plugin](https://www.web357.com/product/count-words-characters-paragraphs-wordpress-plugin) This WordPress plugin displays the count of Characters, Words and Paragraphs while writing in posts/pages editor, and in other custom textarea fields, as an Editor, Author or Admin.
+The [Count CWP](https://www.web357.com/product/count-words-characters-paragraphs-wordpress-plugin) displays the count of Characters, Words and Paragraphs, in real-time, while writing in the visual/text editor of posts/pages, or in custom textarea fields, as an Editor, Author or Admin.
 
 == Video Description ==
 
