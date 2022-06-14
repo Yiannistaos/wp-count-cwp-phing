@@ -1,2 +1,10 @@
+= 14-Jun-2022 : v1.0.2 =
+* [Compatibility] Fully compatible with WordPress v6.0
+* Minor fixes and improvements
+
+= 11-Feb-2022 : v1.0.1 =
+* [Compatibility] Fully compatible with WordPress v5.9
+* Minor fixes and improvements
+
 = 03-Sep-2021 : v1.0.0 =
 * First beta release
