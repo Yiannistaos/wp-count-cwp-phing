@@ -60,7 +60,7 @@ class CountCWP___PROCLASS {
 		} else {
 			$this->version = '1.0.0';
 		}
-		$this->plugin_name = 'Count Characters, Words and Paragraphs in textarea fields';
+		$this->plugin_name = 'Count Characters, Spaces, Words and Paragraphs in textarea fields';
 		$this->plugin_basename = plugin_basename( plugin_dir_path( __DIR__ ) . 'count-cwp.php' );
 
 		$this->load_dependencies();

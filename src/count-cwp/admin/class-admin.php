@@ -79,6 +79,7 @@ class CountCWP_Admin___PROCLASS {
 			$count_cwp_show_characters_option = (isset($options->count_cwp_show_characters)) ? $options->count_cwp_show_characters : true;
 			$count_cwp_show_words_option = (isset($options->count_cwp_show_words)) ? $options->count_cwp_show_words : true;
 			$count_cwp_show_paragraphs_option = (isset($options->count_cwp_show_paragraphs)) ? $options->count_cwp_show_paragraphs : true;
+			$count_cwp_show_spaces_option = (isset($options->count_cwp_show_spaces)) ? $options->count_cwp_show_spaces : true;
 			$count_cwp_show_copyright_link_option = (isset($options->count_cwp_show_copyright_link)) ? $options->count_cwp_show_copyright_link : true;
 
 			// Localize the script with new data
@@ -87,12 +88,14 @@ class CountCWP_Admin___PROCLASS {
 				'show_characters' => $count_cwp_show_characters_option,
 				'show_words' => $count_cwp_show_words_option,
 				'show_paragraphs' => $count_cwp_show_paragraphs_option,
+				'show_spaces' => $count_cwp_show_spaces_option,
 				'show_copyright_link' => $count_cwp_show_copyright_link_option,
 				
 				// Strings
 				'words' => __( 'Words', 'count-cwp' ),
 				'characters' => __( 'Characters', 'count-cwp' ),
 				'paragraphs' => __( 'Paragraphs', 'count-cwp' ),
+				'spaces' => __( 'Spaces', 'count-cwp' ),
 			);
   			wp_localize_script( $this->plugin_name_clean, 'w357CountCWP', $translation_array);
 

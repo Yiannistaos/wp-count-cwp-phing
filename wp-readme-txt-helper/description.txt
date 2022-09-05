@@ -1,8 +1,8 @@
-The [Count CWP](https://www.web357.com/product/count-words-characters-paragraphs-wordpress-plugin) displays the count of Characters, Words and Paragraphs, in real-time, while writing in the visual/text editor of posts/pages, or in custom textarea fields, as an Editor, Author or Admin.
+The [Count CWP](https://www.web357.com/product/count-words-characters-paragraphs-wordpress-plugin) displays the count of Characters, Spaces, Words and Paragraphs, in real-time, while writing in the visual/text editor of posts/pages, or in custom textarea fields, as an Editor, Author or Admin.
 
 == Video Description ==
 
 [youtube https://youtu.be/13rTj-B3mhY]
 
 == Basic Features ==
-- In Settings > Count CWP, you can show or hide the count of characters, words or paragraphs.
+- In Settings > Count CWP, you can show or hide the count of characters, spaces, words or paragraphs.

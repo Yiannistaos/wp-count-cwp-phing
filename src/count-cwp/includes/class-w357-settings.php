@@ -109,6 +109,11 @@ class CountCWP_settings___PROCLASS {
 		$count_cwp_show_paragraphs = strip_tags( stripslashes( $count_cwp_show_paragraphs ) );
 		$valid_fields['count_cwp_show_paragraphs'] = $count_cwp_show_paragraphs;
 
+		// Validate "count_cwp_show_spaces" Field
+		$count_cwp_show_spaces = trim( $fields['count_cwp_show_spaces'] );
+		$count_cwp_show_spaces = strip_tags( stripslashes( $count_cwp_show_spaces ) );
+		$valid_fields['count_cwp_show_spaces'] = $count_cwp_show_spaces;
+
 		// Validate "count_cwp_show_copyright_link" Field
 		$count_cwp_show_copyright_link = trim( $fields['count_cwp_show_copyright_link'] );
 		$count_cwp_show_copyright_link = strip_tags( stripslashes( $count_cwp_show_copyright_link ) );
@@ -209,6 +214,23 @@ class CountCWP_settings___PROCLASS {
 					['id' => '0', 'label' => esc_html__('No', 'count-cwp'), 'value' => '0'],
 				],
 				'desc' => __('Choose if you want to display the count of paragraphs below each HTML textarea tag.', 'count-cwp'),
+			]
+		);
+
+		add_settings_field( 
+			'count_cwp_show_spaces', 
+			esc_html__( 'Show Spaces', 'count-cwp' ), 
+			array($this->fields, 'selectField'),
+			'count-cwp', 
+			'base_settings_section',
+			[
+				'id' => 'count_cwp_show_spaces',
+				'default_value' => '0',
+				'options' => [
+					['id' => '1', 'label' => esc_html__('Yes', 'count-cwp'), 'value' => '1'],
+					['id' => '0', 'label' => esc_html__('No', 'count-cwp'), 'value' => '0'],
+				],
+				'desc' => __('Choose if you want to display the count of spaces below each HTML textarea tag.', 'count-cwp'),
 			]
 		);
 

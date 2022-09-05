@@ -1,3 +1,7 @@
+= 05-Sep-2022 : v1.0.3 =
+* [New Feature] You can now display the count of spaces below each HTML textarea tag. Do not forget to enable this feature from the plugin settings (screenshot: https://bit.ly/cwp-count-spaces)
+* Minor fixes and improvements
+
 = 14-Jun-2022 : v1.0.2 =
 * [Compatibility] Fully compatible with WordPress v6.0
 * Minor fixes and improvements
