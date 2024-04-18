@@ -1,8 +1,8 @@
 {
-	"mirrors": [
-		{
-			"src": "/Users/yiannistaos/Projects/extensions-without-generator/wp-count-cwp/src/count-cwp/",
-			"dst": "/Users/yiannistaos/Sites/localhost/wordpress/wp-content/plugins/count-cwp/"
-		}
-	]
+    "mirrors": [
+        {
+            "src": "/Users/yiannistaos/Projects/extensions-without-generator/wp-count-cwp/src/count-cwp/",
+            "dst": "/Users/yiannistaos/Projects/tests/test-wp-docker/wp-app/wp-content/plugins/count-cwp/"
+        }
+    ]
 }

@@ -1,2 +1,2 @@
-= 05-Sep-2024 : v1.0.5beta =
+= 05-May-2024 : v1.0.7beta =
 * Minor fixes and improvements
