@@ -1,3 +1,5 @@
 = 05-May-2024 : v1.0.7beta =
+* [New Feature] Added a new column in the admin posts list displaying word, character, paragraph, and space counts for each post.
+* [New Feature] Added automatic batch processing to calculate and store word, character, paragraph, and space counts for all existing posts upon plugin activation.
 * [Bug fix] Deprecated: Creation of dynamic property CountCWP_Admin::$plugin_name_clean is deprecated in /wp-content/plugins/count-cwp/admin/class-admin.php on line 5
 * Minor fixes and improvements
