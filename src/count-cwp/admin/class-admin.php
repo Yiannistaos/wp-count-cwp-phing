@@ -13,30 +13,9 @@
  ========================================================= */
 class CountCWP_Admin___PROCLASS {
 
-	/**
-	 * The ID of this plugin.
-	 *
-	 * @since    1.0.0
-	 * @access   private
-	 * @var      string    $plugin_name    The ID of this plugin.
-	 */
-	private $plugin_name;
-
-	/**
-	 * The version of this plugin.
-	 *
-	 * @since    1.0.0
-	 * @access   private
-	 * @var      string    $version    The current version of this plugin.
-	 */
-	private $version;
-
-	/**
-	 * This fields
-	 *
-	 * @var [class]
-	 */
-	public $fields;
+    public $plugin_name;
+    public $plugin_name_clean;
+    public $version;
 
 	/**
 	 * Initialize the class and set its properties.

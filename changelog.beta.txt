@@ -1,2 +1,3 @@
 = 05-May-2024 : v1.0.7beta =
+* [Bug fix] Deprecated: Creation of dynamic property CountCWP_Admin::$plugin_name_clean is deprecated in /wp-content/plugins/count-cwp/admin/class-admin.php on line 5
 * Minor fixes and improvements
