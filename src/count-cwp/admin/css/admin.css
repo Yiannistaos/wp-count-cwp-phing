@@ -37,6 +37,10 @@
     margin-left: 5px;
 }
 
+.column-all_counts {
+    width: 150px;
+}
+
 @media only screen and (max-width: 1179px) {
     .count-cwp-about {
         width: auto;
